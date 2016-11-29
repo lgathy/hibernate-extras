@@ -28,6 +28,7 @@
         <version.maven.resources.plugin>2.7</version.maven.resources.plugin>
         <version.maven.source.plugin>2.4</version.maven.source.plugin>
         <version.maven.surefire.plugin>2.18</version.maven.surefire.plugin>
+        <version.hibernate>5.2.5.Final</version.hibernate>
     </properties>
 
     <distributionManagement>
@@ -43,6 +44,22 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${version.hibernate}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
