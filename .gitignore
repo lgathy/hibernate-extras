@@ -1,7 +1,25 @@
+# Java
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Maven
+target/
+*.ser
+*.ec
+
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS-X
+.DS_Store/
 
 # Package Files #
 *.jar
