@@ -42,7 +42,7 @@ public class HibernateMultiLineInsert {
     public static final HibernateMultiLineInsert lookup(EntityPersister persister) {
         requireNonNull(persister, "persister");
         if (!isSingleTable(persister)) {
-            // there whould be too many special cases unsupported for multi-table multi-line inserts
+            // there would be too many special cases unsupported for multi-table multi-line inserts
             return null;
         }
         if (persister.getEntityMetamodel().isDynamicInsert()) {
