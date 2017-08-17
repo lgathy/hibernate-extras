@@ -28,7 +28,8 @@
         <version.maven.resources.plugin>2.7</version.maven.resources.plugin>
         <version.maven.source.plugin>2.4</version.maven.source.plugin>
         <version.maven.surefire.plugin>2.18</version.maven.surefire.plugin>
-        <version.hibernate>5.2.7.Final</version.hibernate>
+        <version.hibernate>5.2.10.Final</version.hibernate>
+        <version.guava>23.0</version.guava>
     </properties>
 
     <distributionManagement>
@@ -58,7 +59,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>20.0</version>
+            <version>${version.guava}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
