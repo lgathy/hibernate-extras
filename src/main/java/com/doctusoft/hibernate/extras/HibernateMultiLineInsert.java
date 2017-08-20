@@ -47,7 +47,7 @@ public class HibernateMultiLineInsert {
         }
         if (persister.getEntityMetamodel().isDynamicInsert()) {
             // shouldn't risk dynamic insertable entities due to DB-level default value inconsistencies
-            // TODO this could by an option
+            // TODO this could be an option
             return null;
         }
         IdentifierGenerator identifierGenerator = persister.getIdentifierGenerator();
